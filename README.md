@@ -55,7 +55,7 @@ $$\text{Call setup latency} = 23.0500 - 11.35565 = 11.69435\text{ ms}$$
 * **DiffServ Domain:** VoIP media classified as **Expedited Forwarding (DSCP 46)**, SIP signalling as **Assured Forwarding AF12 (DSCP 12)**, and everything else as **Best Effort (DSCP 0)**.
 * **Policy Rules:** ACL-based traffic classification + policy maps for ingress DSCP marking and egress bandwidth allocation.
 * **Stress Testing:** Validated under a constrained $128\text{ kbps}$ serial link with parallel iPerf-generated congestion.
-**[Full report with topology diagrams & Cisco config](./diffserv-qos-report.pdf)**
+* **[Full report with topology diagrams & Cisco config](./diffserv-qos-report.pdf)**
 
 ### Lab B — Next-Generation Network: SIP proxy/peer-to-peer, NAT traversal, multi-domain interconnect
 * **Architecture:** VoIP service provider network with Asterisk, hard/softphones, NAT, and static routing.
@@ -63,7 +63,7 @@ $$\text{Call setup latency} = 23.0500 - 11.35565 = 11.69435\text{ ms}$$
 * **Media Flows:** Peer-to-peer RTP vs. proxy-mode RTP comparison, including NAT traversal behavior (RFC 3581 symmetric response routing).
 * **NAT Mapping Dependencies:** Demonstrated that calls *failed* when initiated from outside a NAT'd network (empty translation table) and *succeeded* when initiated from inside it.
 * **Trunk Interconnection:** Cross-team SIP trunk interconnection with live transcoding between PCMA and iLBC codecs.
-**[Full report with call-flow diagrams & Cisco config](./ngn-team1-report.pdf)**
+* **[Full report with call-flow diagrams & Cisco config](./ngn-team1-report.pdf)**
 
 ---
 
