@@ -1,6 +1,5 @@
 # VoIP & NGN Network Design with DiffServ QoS
 
-![Cisco IOS](https://img.shields.io/badge/Cisco-IOS-blue)
 ![Asterisk](https://img.shields.io/badge/Asterisk-PBX-green)
 ![VoIP](https://img.shields.io/badge/VoIP-SIP%2FRTP-success)
 ![DiffServ](https://img.shields.io/badge/DiffServ-QoS-orange)
