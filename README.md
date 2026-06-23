@@ -1,5 +1,14 @@
 # VoIP & NGN Network Design with DiffServ QoS
 
+![Cisco IOS](https://img.shields.io/badge/Cisco-IOS-blue)
+![Asterisk](https://img.shields.io/badge/Asterisk-PBX-green)
+![VoIP](https://img.shields.io/badge/VoIP-SIP%2FRTP-success)
+![DiffServ](https://img.shields.io/badge/DiffServ-QoS-orange)
+![Wireshark](https://img.shields.io/badge/Wireshark-Packet_Analysis-blue)
+![Network Engineering](https://img.shields.io/badge/Network-Engineering-purple)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+
 Two Cisco Packet Tracer / Asterisk lab projects from my M.Sc. Communication Systems & Networks coursework at TH Köln, demonstrating SIP/RTP signalling analysis, VoIP service deployment, and DiffServ-based QoS for latency-sensitive traffic.
 
 **Stack:** Cisco IOS (routers/switches), Asterisk, Wireshark, iPerf, SIP/RTP
